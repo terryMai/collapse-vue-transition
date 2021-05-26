@@ -1,0 +1,19 @@
+{
+  "name": "collapse-vue-transition",
+  "version": "2.0.0",
+  "description": "vue项目的手风琴折叠面板的transition组件",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack --config ./webpack.base.js",
+    "prepublish": "webpack --config ./webpack.base.js"
+  },
+  "keywords": [],
+  "author": "meijf",
+  "license": "ISC",
+  "devDependencies": {
+    "terser-webpack-plugin": "^5.1.2",
+    "webpack": "^5.37.1",
+    "webpack-cli": "^4.7.0"
+  }
+}
